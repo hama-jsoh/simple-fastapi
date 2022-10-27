@@ -1,6 +1,7 @@
 # simple-fastapi
-FastAPI examples
-
+간단한 FastAPI 예제입니다 :technologist:
+  
+----
 
 #### 1. Install python packages
 ```bash
