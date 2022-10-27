@@ -3,14 +3,14 @@
   
 ----
 
-#### 1. Install python packages
-```bash
-python3 -m pip install -r requirements.txt
-```
-
-#### 2. Git clone this repo
+#### 1. Git clone this repo
 ```bash
 git clone https://github.com/hama-jsoh/simple-fastapi
+```
+
+#### 2. Install python packages
+```bash
+python3 -m pip install -r requirements.txt
 ```
 
 #### 3. Run FastAPI Server
