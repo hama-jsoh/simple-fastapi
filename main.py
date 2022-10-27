@@ -16,7 +16,6 @@ def create_app():
     app.include_router(test.router, tags=["test"], prefix="/test")
     return app
 
-
 ARGS = set_argument()
 HOST = ARGS.host
 PORT = ARGS.port
