@@ -7,7 +7,7 @@ from routes import test
 def set_argument():
     parser = argparse.ArgumentParser()
     parser.add_argument("-h", "--host", type=str, default="0.0.0.0", help="Bind socket to this host. [default: 0.0.0.0]")
-    parser.add_argument("-p", "--port", type=int, default="8000", help="Bind socket to this host. [default: 80]")
+    parser.add_argument("-p", "--port", type=int, default="8000", help="Bind socket to this host. [default: 8000]")
     args = parser.parse_args()
     return args
 
